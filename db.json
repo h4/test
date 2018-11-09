@@ -1,0 +1,101 @@
+{
+  "conditions": {
+    "status": "ok",
+    "data": {
+      "begin_ts": 1540425600,
+      "end_ts": 1540511999,
+      "components": [
+        {
+          "id": 0,
+          "title": "Motor temperature",
+          "subsystem_id": 0,
+          "states": [
+            {
+              "level": "Fail",
+              "appear_ts": 1540425600,
+              "descriptions": "Motor temperature is higher than normal"
+            },
+            {
+              "level": "Ok",
+              "appear_ts": 1540456901
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Drive temperature",
+          "subsystem_id": 0,
+          "states": [
+            {
+              "level": "Fail",
+              "appear_ts": 1540425600,
+              "descriptions": "Motor temperature is higher than normal"
+            },
+            {
+              "level": "Ok",
+              "appear_ts": 1540456901
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Brain temperature",
+          "subsystem_id": 0,
+          "states": [
+            {
+              "level": "Fail",
+              "appear_ts": 1540425600,
+              "descriptions": "Motor temperature is higher than normal"
+            },
+            {
+              "level": "Ok",
+              "appear_ts": 1540456901
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Main steering",
+          "subsystem_id": 3,
+          "states": [
+            {
+              "level": "Ok",
+              "appear_ts": 1540456901
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Radio antenna",
+          "subsystem_id": 4,
+          "states": [
+            {
+              "level": "Ok",
+              "appear_ts": 1540456901
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Ethical block",
+          "subsystem_id": 7,
+          "states": [
+            {
+              "level": "Ok",
+              "appear_ts": 1540425600
+            },
+            {
+              "level": "Fail",
+              "appear_ts": 1540475000,
+              "descriptions": "Error while human life worth calculation"
+            },
+            {
+              "level": "Ok",
+              "appear_ts": 1540504999
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
